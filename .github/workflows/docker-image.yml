@@ -13,3 +13,6 @@ jobs:
           name: zhangbin0301/hugg
           username: zhangbin0301
           password: 584yyscjZB
+
+
+# 可以试着换换其他系统 ubuntu  centos  debian  Alpine
