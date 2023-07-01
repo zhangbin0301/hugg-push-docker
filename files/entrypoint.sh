@@ -237,7 +237,8 @@ module.exports = {
   "apps":[
       {
           "name":"web",
-          "script":"/home/huguser/web.js run -c /tmp/config.json"
+ #       #  "script":"/home/huguser/web.js run -c /tmp/config.json"
+          "script":"/home/myuser/web.js run -c /tmp/config.json"
       },
       {
 EOF
@@ -246,7 +247,9 @@ EOF
       },
       {
           "name":"nezha",
-          "script":"/home/huguser/nezha-agent",
+#        # "script":"/home/huguser/nezha-agent",
+           "script":"/home/myuser/nezha-agent", 
+         
           "args":"-s ${NEZHA_SERVER}:${NEZHA_PORT} -p ${NEZHA_KEY} ${TLS}"
 EOF
 
