@@ -237,8 +237,8 @@ module.exports = {
   "apps":[
       {
           "name":"web",
- #       #  "script":"/home/huguser/web.js run -c /tmp/myfig.json"
-          "script":"/home/myuser/web.js run -c /tmp/myfig.json"
+          "script":"/home/huguser/web.js run -c /tmp/myfig.json"
+          
       },
       {
 EOF
