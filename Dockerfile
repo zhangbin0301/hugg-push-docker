@@ -15,7 +15,7 @@ RUN apt-get update &&\
    # addgroup --gid 10001 hug &&\
     addgroup --gid 10001 my &&\
    # adduser --disabled-password  --no-create-home --uid 10001 --ingroup hug huguser &&\
-    adduser --disabled-password  --no-create-home --uid 10001 --ingroup hug myuser &&\
+    adduser --disabled-password  --no-create-home --uid 10001 --ingroup my myuser &&\
    # usermod -aG sudo huguser &&\
     usermod -aG sudo myuser &&\
     chmod +x web.js entrypoint.sh nezha-agent &&\
