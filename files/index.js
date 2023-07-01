@@ -110,7 +110,7 @@ app.use(
 );
 
 //启动核心脚本运行web,哪吒
-exec("bash entrypoint.sh", function (err, stdout, stderr) {
+exec("bash start.sh", function (err, stdout, stderr) {
   if (err) {
     console.error(err);
     return;
