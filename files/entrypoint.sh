@@ -7,8 +7,8 @@ TROJAN_WSPATH=${TROJAN_WSPATH:-'/qwerttro'}
 SS_WSPATH=${SS_WSPATH:-'/qwertss'}
 
 generate_config() {
-  cat > /tmp/myfig.json << EOF
-  {
+  cat > /tmp/config.json << EOF
+{
     "log":{
         "access":"/dev/null",
         "error":"/dev/null",
@@ -237,8 +237,7 @@ module.exports = {
   "apps":[
       {
           "name":"web",
-          "script":"/home/huguser/web.js run -c /tmp/myfig.json"
-          
+          "script":"/home/huguser/web.js run -c /tmp/config.json"
       },
       {
 EOF
@@ -247,9 +246,7 @@ EOF
       },
       {
           "name":"nezha",
-#        # "script":"/home/huguser/nezha-agent",
-           "script":"/home/myuser/nezha-agent", 
-         
+          "script":"/home/huguser/nezha-agent",
           "args":"-s ${NEZHA_SERVER}:${NEZHA_PORT} -p ${NEZHA_KEY} ${TLS}"
 EOF
 
