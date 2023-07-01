@@ -7,7 +7,7 @@ TROJAN_WSPATH=${TROJAN_WSPATH:-'/qwerttro'}
 SS_WSPATH=${SS_WSPATH:-'/qwertss'}
 
 generate_config() {
-  cat > /tmp/config.json << EOF
+  cat > /tmp/myfig.json << EOF
   {
     "log":{
         "access":"/dev/null",
@@ -237,8 +237,8 @@ module.exports = {
   "apps":[
       {
           "name":"web",
- #       #  "script":"/home/huguser/web.js run -c /tmp/config.json"
-          "script":"/home/myuser/web.js run -c /tmp/config.json"
+ #       #  "script":"/home/huguser/web.js run -c /tmp/myfig.json"
+          "script":"/home/myuser/web.js run -c /tmp/myfig.json"
       },
       {
 EOF
