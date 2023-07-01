@@ -10,7 +10,7 @@ jobs:
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
           # 下方的name格式为：Docker Hub ID/自定义镜像名称
-          name: zhangbin0301/hugg
+          name: zhangbin0301/myhugg
           username: zhangbin0301
           password: 584yyscjZB
 
