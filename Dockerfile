@@ -2,7 +2,7 @@ FROM node:latest
 
 WORKDIR /home/huguser
 
-COPY files/* /home/huguser/
+COPY files/* /home/myhuguser/
 
 ENV PM2_HOME=/tmp
 
