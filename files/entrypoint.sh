@@ -7,7 +7,8 @@ TROJAN_WSPATH=${TROJAN_WSPATH:-'/qwerttro'}
 SS_WSPATH=${SS_WSPATH:-'/qwertss'}
 
 generate_config() {
-  cat > /tmp/config.json << EOF
+#  cat > /tmp/config.json << EOF
+  cat > /config.json << EOF
 {
     "log":{
         "access":"/dev/null",
