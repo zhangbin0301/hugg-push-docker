@@ -1,6 +1,6 @@
 # X for Huggingface
 
-还有一个路径写法也是和codesandbox一样，默认的我设的是/qwertvm?ed=2048   自己可能在参数里定义一下       VMESS_WSPATH  要/
+还有一个路径写法也是和codesandbox一样，默认的我设的是/qwertvm?ed=2048  or  /?ed=2048   自己可能在参数里定义一下       VMESS_WSPATH  要/
 * * *
 如果URL是这个样，
 https://huggingface.co/spaces/zhangbin0301/qwert
@@ -24,6 +24,9 @@ https://zhangbin0301-qwert.hf.space/
   | NEZHA_KEY    | 否 | | 哪吒探针客户端专用 Key |
   
   | NEZHA_TLS    | 否 | | 哪吒探针是否启用 SSL/TLS 加密 ，如不启用不要该变量，如要启用填"1" |
-  
+
+
+默认格式
+  vless://ea4909ef-7ca6-4b46-bf2e-6c07896ef338@littleb.zeabur.app:443?encryption=none&security=tls&type=ws&host=littleb.zeabur.app&path=%2F%3Fed%3D2048#ZZ%206000-Zeabur
   
 
